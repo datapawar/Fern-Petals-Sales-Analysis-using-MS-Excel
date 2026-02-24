@@ -2,7 +2,7 @@
 Ferns & Petals Sales Analysis
 ======================== -->
 
-<h1 align="center"> 🌸🎁 Ferns & Petals - Sales Analysis 📊✨ (Excel) 🌿💐</h1>
+<h1 align="center"> 🌸🎁 Ferns & Petals — Sales Analysis 📊✨ (Excel) 🌿💐</h1>
 
 <p align="center">
   End-to-end retail sales analytics project in <b>Microsoft Excel</b> - from ETL (Power Query) to data modeling (Power Pivot), analysis, and an interactive dashboard.
@@ -11,26 +11,25 @@ Ferns & Petals Sales Analysis
 <p align="center">
   <a href="#"><img alt="Tool" src="https://img.shields.io/badge/Tool-Microsoft%20Excel-217346"></a>
   <a href="#"><img alt="ETL" src="https://img.shields.io/badge/ETL-Power%20Query-6CC24A"></a>
-  <a href="#"><img alt="Modeling" src="https://img.shields.io/badge/Data%20Model-Power%20Pivot-FFD54F">
-  </a>
+  <a href="#"><img alt="Modeling" src="https://img.shields.io/badge/Data%20Model-Power%20Pivot-FFD54F"></a>
   <a href="#"><img alt="Output" src="https://img.shields.io/badge/Deliverable-Interactive%20Dashboard-FF8A65"></a>
 </p>
 
 ---
 
 ## 📋 Table of contents
-- [Business context] (## 🏢 Business context)
-- [Project objectives](#project-objectives)
-- [Deliverables](#deliverables)
-- [Data](#data)
-- [Workflow (BI lifecycle)](#workflow-bi-lifecycle)
-- [Dashboard preview](#dashboard-preview)
-- [Key metrics (dataset summary)](#key-metrics-dataset-summary)
-- [Key insights](#key-insights)
-- [How to use](#how-to-use)
-- [Repository structure](#repository-structure)
-- [Tools & skills](#tools--skills)
-- [Author](#author)
+- [Business context](#-business-context)
+- [Project objectives](#-project-objectives)
+- [Deliverables](#-deliverables)
+- [Data](#%EF%B8%8F-data)
+- [Workflow (BI lifecycle)](#-workflow-bi-lifecycle)
+- [Dashboard preview](#%EF%B8%8F-dashboard-preview)
+- [Key metrics (dataset summary)](#-key-metrics-dataset-summary)
+- [Key insights](#-key-insights)
+- [How to use](#-how-to-use)
+- [Repository structure](#%EF%B8%8F-repository-structure)
+- [Tools & skills](#%EF%B8%8F-tools--skills)
+- [Author](#-author)
 
 ---
 
