@@ -74,7 +74,7 @@ Ferns & Petals is a gifting brand selling cakes, flowers, plants, and personaliz
 6. **Report**: PDF report with findings and business recommendations.
 
 ## 🖥️ Dashboard preview
-![Dashboard](dashboard_image.png)
+![Dashboard](dashboard.png)
 
 ## 📈 Key metrics (dataset summary)
 | Metric | Value |
