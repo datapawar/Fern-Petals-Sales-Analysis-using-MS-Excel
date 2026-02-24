@@ -2,7 +2,7 @@
 Ferns & Petals Sales Analysis
 ======================== -->
 
-<h1 align="center"> 🌸🎁 Ferns & Petals — Sales Analysis 📊✨ (Excel) 🌿💐</h1>
+<h1 align="center"> 🌸🎁 Ferns & Petals - Sales Analysis 📊✨ (Excel) 🌿💐</h1>
 
 <p align="center">
   End-to-end retail sales analytics project in <b>Microsoft Excel</b> - from ETL (Power Query) to data modeling (Power Pivot), analysis, and an interactive dashboard.
@@ -79,12 +79,10 @@ Ferns & Petals is a gifting brand selling cakes, flowers, plants, and personaliz
 ## 📈 Key metrics (dataset summary)
 | Metric | Value |
 |--------|------:|
-| Total Orders | 15 |
-| Unique Customers | 99 |
-| Unique Products | 15 |
-| Total Revenue | ₹17,691 |
-| Average Revenue per Order | ₹1,179 |
-| Average Delivery Days | ~6.2 days |
+| Total Orders | 1000 |
+| Total Revenue | ₹35,20,984.00 |
+| Average Revenue per Order | ₹3,520.98 |
+| Average Delivery Days | ~5.5 days |
 
 ## 💡 Key insights
 
@@ -139,11 +137,11 @@ Ferns-and-Petals-Sales-Analysis/
 ```
 
 ## 🛠️ Tools & skills
-- **Microsoft Excel** — Power Query (ETL), Power Pivot (data modeling), Pivot Tables, charts, slicers
-- **DAX** — calculated measures for KPIs
-- **Data Analysis** — trend analysis, segmentation, occasion-based performance
+- **Microsoft Excel** - Power Query (ETL), Power Pivot (data modeling), Pivot Tables, charts, slicers
+- **DAX** - calculated measures for KPIs
+- **Data Analysis** - trend analysis, segmentation, occasion-based performance
 
 ## 👤 Author
-**Abhishek Pawar** — Data Analyst
+**Abhishek Pawar** - Data Analyst
 - [GitHub](https://github.com/datapawar)
-- [LinkedIn](https://www.linkedin.com/in/datapawar)
+- [LinkedIn](https://www.linkedin.com/in/abhi-datanaut)
