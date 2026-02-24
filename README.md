@@ -2,7 +2,7 @@
 Ferns & Petals Sales Analysis
 ======================== -->
 
-<h1 align="center"> 🌸🎁 Ferns & Petals — Sales Analysis 📊✨ (Excel) 🌿💐</h1>
+<h1 align="center"> 🌸🎁 Ferns & Petals - Sales Analysis 📊✨ (Excel) 🌿💐</h1>
 
 <p align="center">
   End-to-end retail sales analytics project in <b>Microsoft Excel</b> - from ETL (Power Query) to data modeling (Power Pivot), analysis, and an interactive dashboard.
@@ -19,7 +19,7 @@ Ferns & Petals Sales Analysis
 ---
 
 ## 📋 Table of contents
-- [Business context](#business-context)
+- [Business context] (## 🏢 Business context)
 - [Project objectives](#project-objectives)
 - [Deliverables](#deliverables)
 - [Data](#data)
