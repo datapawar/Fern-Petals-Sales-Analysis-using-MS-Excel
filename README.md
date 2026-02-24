@@ -1,6 +1,6 @@
-<!-- =========================
+<!-- ========================
 Ferns & Petals Sales Analysis
-========================== -->
+======================== -->
 
 <h1 align="center"> 🌸🎁 Ferns & Petals — Sales Analysis 📊✨ (Excel) 🌿💐</h1>
 
@@ -11,13 +11,14 @@ Ferns & Petals Sales Analysis
 <p align="center">
   <a href="#"><img alt="Tool" src="https://img.shields.io/badge/Tool-Microsoft%20Excel-217346"></a>
   <a href="#"><img alt="ETL" src="https://img.shields.io/badge/ETL-Power%20Query-6CC24A"></a>
-  <a href="#"><img alt="Modeling" src="https://img.shields.io/badge/Data%20Model-Power%20Pivot-FFD54F"></a>
+  <a href="#"><img alt="Modeling" src="https://img.shields.io/badge/Data%20Model-Power%20Pivot-FFD54F">
+  </a>
   <a href="#"><img alt="Output" src="https://img.shields.io/badge/Deliverable-Interactive%20Dashboard-FF8A65"></a>
 </p>
 
 ---
 
-## Table of contents
+## 📋 Table of contents
 - [Business context](#business-context)
 - [Project objectives](#project-objectives)
 - [Deliverables](#deliverables)
@@ -33,35 +34,36 @@ Ferns & Petals Sales Analysis
 
 ---
 
-## Business context
+## 🏢 Business context
 Ferns & Petals is a gifting brand selling cakes, flowers, plants, and personalized gifts. This project addresses common retail analytics gaps such as unclear sales trends across time/cities/categories, limited visibility into top products & occasions, and delivery-time variability impacting customer experience.
 
-## Project objectives
+## 🎯 Project objectives
 - Identify revenue drivers across **categories**, **products**, **cities**, and **occasions**.
 - Understand customer behavior using **gender-wise** and city-wise segmentation.
 - Track operational performance through **delivery days** and order timing patterns.
 - Convert raw transactional data into an Excel dashboard and a business-ready report.
 
-## Deliverables
+## 📦 Deliverables
 - `Ferns_and_Petals_Sales_Analysis.xlsx` (interactive dashboard + data model)
 - `Ferns & Petals Sales Analysis Report.pdf` (insights + recommendations)
 - `Problem Statement.pdf`
 - Raw datasets: `customers.csv`, `orders.csv`, `products.csv`
 
-## Data
-### Source files
+## 🗄️ Data
+
+### 📂 Source files
 | File | Description | Key columns |
 |------|-------------|------------|
 | `customers.csv` | Customer master data | `Customer_ID`, `Name`, `City`, `Gender` |
 | `products.csv` | Product catalog | `Product_ID`, `Category`, `Price` |
 | `orders.csv` | Transactions | `Order_ID`, `Customer_ID`, `Product_ID`, `Quantity`, `Order_Date`, `Delivery_Date` |
 
-### Core derived fields (Power Query)
-- `Delivery Days` = Delivery_Date − Order_Date  
-- `Revenue` = Price × Quantity  
+### ⚙️ Core derived fields (Power Query)
+- `Delivery Days` = Delivery_Date − Order_Date
+- `Revenue` = Price × Quantity
 - `Profit Margin` (as defined in the workbook model)
 
-## Workflow (BI lifecycle)
+## 🔄 Workflow (BI lifecycle)
 1. **Extract**: Imported all CSVs into Power Query.
 2. **Transform (ETL)**: Removed duplicates/blanks, standardized data types, cleaned categorical columns (occasion/category/city), and added derived fields.
 3. **Model**: Built a **star schema** in Power Pivot:
@@ -72,10 +74,10 @@ Ferns & Petals is a gifting brand selling cakes, flowers, plants, and personaliz
 5. **Visualize**: Interactive dashboard with KPI cards, charts, and slicers.
 6. **Report**: PDF report with findings and business recommendations.
 
-## Dashboard preview
+## 🖥️ Dashboard preview
 ![Dashboard](dashboard_image.png)
 
-## Key metrics (dataset summary)
+## 📈 Key metrics (dataset summary)
 | Metric | Value |
 |--------|------:|
 | Total Orders | 15 |
@@ -85,42 +87,43 @@ Ferns & Petals is a gifting brand selling cakes, flowers, plants, and personaliz
 | Average Revenue per Order | ₹1,179 |
 | Average Delivery Days | ~6.2 days |
 
-## Key insights
-### Top cities by revenue
+## 💡 Key insights
+
+### 🏙️ Top cities by revenue
 - Rajkot
 - Bilaspur
 - Jaipur
 - Bardhaman
 - Ambala
 
-### Top categories by revenue
+### 🛍️ Top categories by revenue
 - Colors
 - Sweets
 - Cake
 - Plants
 - Mugs
 
-### Occasion performance (high to moderate)
+### 🎉 Occasion performance (high to moderate)
 1. Diwali (highest revenue)
 2. Anniversary (consistent demand)
 3. Birthday (high order volume)
-4. Valentine’s Day (seasonal spike)
+4. Valentine's Day (seasonal spike)
 5. Holi (moderate revenue)
 
-### Customer & operations notes
+### 👥 Customer & operations notes
 - Female customers generated slightly higher revenue; male customers placed more orders with lower AOV.
 - Average delivery time is ~5.5 days, indicating a clear operational improvement opportunity.
 - Peak sales months observed: February, July, and September.
 - Orders were most frequently placed during evening hours.
 
-## How to use
+## 🚀 How to use
 1. Download or clone the repository.
 2. Open `Ferns_and_Petals_Sales_Analysis.xlsx` in Microsoft Excel (Desktop).
 3. If prompted, enable content and refresh queries:
    - **Data** → **Refresh All**
 4. Use slicers/filters to explore performance by city, category, occasion, and customer attributes.
 
-## Repository structure
+## 🗂️ Repository structure
 ```text
 Ferns-and-Petals-Sales-Analysis/
 │
@@ -134,3 +137,14 @@ Ferns-and-Petals-Sales-Analysis/
 ├── Problem Statement.pdf
 ├── dashboard_image.png
 └── README.md
+```
+
+## 🛠️ Tools & skills
+- **Microsoft Excel** — Power Query (ETL), Power Pivot (data modeling), Pivot Tables, charts, slicers
+- **DAX** — calculated measures for KPIs
+- **Data Analysis** — trend analysis, segmentation, occasion-based performance
+
+## 👤 Author
+**Abhishek Pawar** — Data Analyst
+- [GitHub](https://github.com/datapawar)
+- [LinkedIn](https://www.linkedin.com/in/datapawar)
